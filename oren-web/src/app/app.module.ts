@@ -39,7 +39,7 @@ import { ControlSidebarComponent } from './control-sidebar/control-sidebar.compo
     FunctionalitiesModule,
     RouterModule.forRoot(
       appRoutes,
-      { enableTracing: true } // <-- debugging purposes only
+      { enableTracing: false } // <-- debugging purposes only
     )
   ],
   providers: [],
