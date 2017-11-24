@@ -10,9 +10,19 @@
     <div class="row">
       <div class="col-sm-6 col-xs-12">
         <cp-input-container errorMessage="Campo obrigatório e com 5 caracteres" label="Nome">
-          <input class="form-control" name="name" required ngModel minlength="5" placeholder="Nome" autocomplete="off" />
+          <input class="form-control" name="nome" required ngModel minlength="5" autocomplete="off" />
+        </cp-input-container>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-xs-12">
+        <cp-input-container errorMessage="Usuário deve possuir no mínimo 18." label="Idade">
+          <input class="form-control" name="idade" type="number" required ngModel min="18" autocomplete="off" />
         </cp-input-container>
       </div>
     </div>
   </form>
+  <pre>
+    {{courseForm.value | json}}
+  </pre>
 </div>
