@@ -25,7 +25,7 @@
         "../node_modules/jquery/dist/jquery.min.js",
         "../node_modules/bootstrap/dist/js/bootstrap.min.js",
         "../node_modules/fastclick/lib/fastclick.js",
-        "../node_modules/Chart.js/dist/Chart.min.js",
+        "../node_modules/chart.js/dist/Chart.min.js",
         "../node_modules/admin-lte/dist/js/adminlte.min.js"
       ],
       "environmentSource": "environments/environment.ts",
