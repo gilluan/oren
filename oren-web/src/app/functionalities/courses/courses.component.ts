@@ -10,6 +10,10 @@ export class CoursesComponent implements OnInit {
 
   orderForm: FormGroup
 
+  coursesOptions = [
+    {label: 'tsts', value: '233'},
+    {label: 'gilluan', value: 'sdsd'}]
+
   constructor() { }
 
   ngOnInit() {
