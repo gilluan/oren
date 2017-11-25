@@ -8,7 +8,6 @@ import { appRoutes } from './routes';
 import { FunctionalitiesModule } from './functionalities/functionalities.module';
 import { ComponentsModule } from './components/components.module';
 
-
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';

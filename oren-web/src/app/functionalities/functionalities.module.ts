@@ -7,6 +7,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 import { FunctionalitiesRoutingModule } from './functionalities-routing.module';
 import { CoursesComponent } from './courses/courses.component';
 import { UsersComponent } from './users/users.component';
+import { DirectivesModule } from 'app/shared/directives.module';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { UsersComponent } from './users/users.component';
     FormsModule,
     ReactiveFormsModule,
     FunctionalitiesRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    DirectivesModule
   ],
   declarations: [CoursesComponent, UsersComponent]
 })

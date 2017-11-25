@@ -1,5 +1,5 @@
 <div class="invoice">
-  <form  #courseForm="ngForm" novalidate>
+  <form name="course-form" #courseForm="ngForm">
     <div class="row">
       <div class="col-xs-12">
         <h2 class="page-header">
@@ -16,13 +16,14 @@
     </div>
     <div class="row">
       <div class="col-sm-6 col-xs-12">
-        <cp-input-container errorMessage="Usuário deve possuir no mínimo 18." label="Idade">
-          <input class="form-control" name="idade" type="number" required ngModel min="18" autocomplete="off" />
-        </cp-input-container>
+          <cp-input-container errorMessage="Usuário deve possuir no mínimo 18." label="Idade">
+            <input class="form-control" name="idade" type="number" minValue="18" max="30" required ngModel #ida="ngModel" autocomplete="off" />
+          </cp-input-container>
       </div>
     </div>
   </form>
   <pre>
     {{courseForm.value | json}}
+    {{ida.errors | json}}
   </pre>
 </div>
