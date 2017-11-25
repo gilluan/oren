@@ -6,6 +6,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
 import { FunctionalitiesRoutingModule } from './functionalities-routing.module';
 import { CoursesComponent } from './courses/courses.component';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   imports: [
@@ -15,6 +16,6 @@ import { CoursesComponent } from './courses/courses.component';
     FunctionalitiesRoutingModule,
     ComponentsModule
   ],
-  declarations: [CoursesComponent]
+  declarations: [CoursesComponent, UsersComponent]
 })
 export class FunctionalitiesModule { }
