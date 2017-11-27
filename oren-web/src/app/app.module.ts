@@ -16,10 +16,6 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { ContentHeaderComponent } from './content-header/content-header.component';
 import { ControlSidebarComponent } from './control-sidebar/control-sidebar.component';
 
-
-
-
-
 @NgModule({
   declarations: [
     AppComponent,

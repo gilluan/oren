@@ -8,6 +8,8 @@ import {FormGroup, FormBuilder, Validators, AbstractControl} from '@angular/form
 })
 export class CoursesComponent implements OnInit {
 
+  public idade: number;
+
   constructor() { }
 
   ngOnInit() {
