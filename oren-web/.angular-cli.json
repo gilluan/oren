@@ -26,7 +26,8 @@
         "../node_modules/bootstrap/dist/js/bootstrap.min.js",
         "../node_modules/fastclick/lib/fastclick.js",
         "../node_modules/chart.js/dist/Chart.min.js",
-        "../node_modules/admin-lte/dist/js/adminlte.min.js"
+        "../node_modules/admin-lte/dist/js/adminlte.min.js",
+        "../node_modules/ng4-validators/ng4-validators/ng4-validators.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {

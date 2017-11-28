@@ -8,6 +8,7 @@ import { FunctionalitiesRoutingModule } from './functionalities-routing.module';
 import { CoursesComponent } from './courses/courses.component';
 import { UsersComponent } from './users/users.component';
 import { DirectivesModule } from 'app/shared/directives.module';
+import { CustomFormsModule } from 'ng4-validators';
 
 @NgModule({
   imports: [
@@ -16,7 +17,8 @@ import { DirectivesModule } from 'app/shared/directives.module';
     ReactiveFormsModule,
     FunctionalitiesRoutingModule,
     ComponentsModule,
-    DirectivesModule
+    DirectivesModule,
+    CustomFormsModule
   ],
   declarations: [CoursesComponent, UsersComponent]
 })
