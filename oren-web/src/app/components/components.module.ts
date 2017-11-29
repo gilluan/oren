@@ -12,7 +12,8 @@ import { RadioComponent } from './radio/radio.component';
     RadioComponent
   ],
   exports: [
-    InputComponent, RadioComponent
+    InputComponent,
+    RadioComponent
   ]
 })
 export class ComponentsModule { }

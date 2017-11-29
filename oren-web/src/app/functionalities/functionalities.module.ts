@@ -6,6 +6,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms'
 
 import { FunctionalitiesRoutingModule } from './functionalities-routing.module';
 import { CoursesComponent } from './courses/courses.component';
+import { UsersComponent } from './users/users.component';
+import { DirectivesModule } from 'app/shared/directives.module';
+import { CustomFormsModule } from 'ng4-validators';
 
 @NgModule({
   imports: [
@@ -13,8 +16,10 @@ import { CoursesComponent } from './courses/courses.component';
     FormsModule,
     ReactiveFormsModule,
     FunctionalitiesRoutingModule,
-    ComponentsModule
+    ComponentsModule,
+    DirectivesModule,
+    CustomFormsModule
   ],
-  declarations: [CoursesComponent]
+  declarations: [CoursesComponent, UsersComponent]
 })
 export class FunctionalitiesModule { }

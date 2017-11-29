@@ -8,7 +8,7 @@ import {FormGroup, FormBuilder, Validators, AbstractControl} from '@angular/form
 })
 export class CoursesComponent implements OnInit {
 
-  orderForm: FormGroup
+  public idade: number;
 
   coursesOptions = [
     {label: 'tsts', value: '233'},
