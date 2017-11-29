@@ -7,5 +7,15 @@ defmodule OrenRestWeb.Router do
 
   scope "/api", OrenRestWeb do
     pipe_through :api
+
+
+    # Payload Example
+    #{
+    # "course": {
+		#   "name": "name",
+		#   "description": "description"
+	  # }
+    #}
+    resources "/courses", CourseController, except: [:new, :edit]
   end
 end
